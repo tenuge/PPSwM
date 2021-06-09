@@ -1,10 +1,12 @@
-function multtable(n)
+function outmat = multtable(r,c)
 % MULTTABLE creates a multiplication table
-fprintf('Multiplication table with %d elements:\n',n)
+% fprintf('Multiplication table with %d elements:\n',n)
 
-for i = 1:n
-    for j = 1:n
-        fprintf(' %4d', i*j)
+outmat = zeros(r,c);
+
+for i = 1:r
+    for j = 1:c
+        outmat(i,j) = i*j;
     end
     fprintf('\n')
 end
