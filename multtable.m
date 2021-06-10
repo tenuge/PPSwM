@@ -8,6 +8,6 @@ for i = 1:r
     for j = 1:c
         outmat(i,j) = i*j;
     end
-    fprintf('\n')
 end
+
 end
