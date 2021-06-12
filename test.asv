@@ -41,3 +41,9 @@ fprintf('\n\n')
 % end
 % toc
 % fprintf('\n\n')
+
+mat = randi([-10 10],3,5)
+
+for i = mat
+    disp(i)
+end
